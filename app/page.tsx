@@ -1091,23 +1091,6 @@ export default function MissionStatementAnalyzer() {
               <Button
                 variant="ghost"
                 size="sm"
-                className="text-gray-600"
-                onClick={() => {
-                  setAnalysisCount(0);
-                  localStorage.setItem('analysisCount', '0');
-                  setSavedAnalyses([]);
-                  localStorage.setItem('savedAnalyses', '[]');
-                  setEmailSubmitted(false);
-                  setUserEmail('');
-                  localStorage.removeItem('emailSubmitted');
-                  localStorage.removeItem('userEmail');
-                }}
-              >
-                Reset
-              </Button>
-              <Button
-                variant="ghost"
-                size="sm"
                 className="text-blue-600 hover:text-blue-700"
                 onClick={() =>
                   window.open(
