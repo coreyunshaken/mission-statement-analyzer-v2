@@ -1102,10 +1102,6 @@ export default function MissionStatementAnalyzer() {
                 <BookOpen className="h-4 w-4 mr-2" />
                 Workshop System
               </Button>
-              <Button variant="ghost" size="sm" className="text-gray-600">
-                <History className="h-4 w-4 mr-2" />
-                History
-              </Button>
               <Button variant="default" size="sm" className="bg-blue-600 hover:bg-blue-700">
                 <Share2 className="h-4 w-4 mr-2" />
                 Share
