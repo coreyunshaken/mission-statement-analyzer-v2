@@ -1,6 +1,13 @@
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+let resend: Resend | null = null
+
+function getResendClient() {
+  if (!resend && process.env.RESEND_API_KEY) {
+    resend = new Resend(process.env.RESEND_API_KEY)
+  }
+  return resend
+}
 
 interface EmailTemplateData {
   firstName?: string
@@ -34,9 +41,14 @@ export async function sendMissionAnalysisReport(email: string, data: EmailTempla
   }
 
   try {
+    const resendClient = getResendClient()
+    if (!resendClient) {
+      return { success: false, message: 'Email service not configured' }
+    }
+
     const htmlContent = generateReportHTML(data)
     
-    await resend.emails.send({
+    await resendClient.emails.send({
       from: process.env.EMAIL_FROM || 'Mission Analyzer <noreply@yourdomain.com>',
       to: email,
       subject: `Your Mission Statement Analysis Report (Score: ${data.overallScore}/100)`,
