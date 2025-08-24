@@ -1064,7 +1064,7 @@ export default function MissionStatementAnalyzer() {
                 <Target className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
               </div>
               <div>
-                <h1 className="text-lg sm:text-xl font-semibold text-gray-900">Mission Analyzer</h1>
+                <h1 className="text-lg sm:text-xl font-semibold text-gray-900">Mission Statement Analyzer AI Tool</h1>
                 <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">
                   Fortune 500 Standards
                 </p>
@@ -1100,7 +1100,7 @@ export default function MissionStatementAnalyzer() {
                 }
               >
                 <BookOpen className="h-4 w-4 mr-2" />
-                Workshop System
+                Master Framework ($97)
               </Button>
               <Button 
                 variant="default" 
