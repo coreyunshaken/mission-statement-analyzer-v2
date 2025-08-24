@@ -691,7 +691,6 @@ export default function MissionStatementAnalyzer() {
   const [selectedIndustry, setSelectedIndustry] = useState('technology');
   const [isAnalyzed, setIsAnalyzed] = useState(false);
   const [scores, setScores] = useState<any>(null);
-  const [activeView, setActiveView] = useState('analyzer');
   const [savedAnalyses, setSavedAnalyses] = useState<any[]>([]);
   const [analysisCount, setAnalysisCount] = useState(0);
   const [showPaywall, setShowPaywall] = useState(false);
@@ -1123,29 +1122,6 @@ export default function MissionStatementAnalyzer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-6">
           {/* Left Sidebar */}
           <div className="lg:col-span-3 order-2 lg:order-1">
-            <Card className="mb-6 bg-gradient-to-r from-indigo-50 to-purple-50 border-indigo-200">
-              <CardHeader className="pb-4">
-                <CardTitle className="text-base font-medium">Navigation</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-1">
-                <Button
-                  variant={activeView === 'analyzer' ? 'secondary' : 'ghost'}
-                  className="w-full justify-start"
-                  onClick={() => setActiveView('analyzer')}
-                >
-                  <Target className="h-4 w-4 mr-2" />
-                  Analyzer
-                </Button>
-                <Button
-                  variant={activeView === 'tips' ? 'secondary' : 'ghost'}
-                  className="w-full justify-start"
-                  onClick={() => setActiveView('tips')}
-                >
-                  <Lightbulb className="h-4 w-4 mr-2" />
-                  Best Practices
-                </Button>
-              </CardContent>
-            </Card>
 
             {/* Saved Analyses */}
             {savedAnalyses.length > 0 && (
@@ -1985,7 +1961,7 @@ export default function MissionStatementAnalyzer() {
             )} */}
 
             {/* Industry Examples */}
-            {activeView === 'analyzer' && currentExamples.length > 0 && (
+            {currentExamples.length > 0 && (
               <Card className="bg-gradient-to-r from-indigo-50 to-purple-50 border-indigo-200">
                 <CardHeader>
                   <CardTitle className="text-lg">Industry Examples</CardTitle>
