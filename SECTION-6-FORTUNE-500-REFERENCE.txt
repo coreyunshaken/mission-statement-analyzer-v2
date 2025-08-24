@@ -1,0 +1,206 @@
+GAMMA AI PROMPT:
+Please format this content as Section 6 to replace the current Industry-Specific Mission Examples section. Use these design guidelines:
+
+- Professional executive design matching the rest of the playbook
+- Create visual groupings by industry sector
+- Use corporate colors or icons for each industry if possible
+- Make the mission statements stand out (perhaps in quote boxes or cards)
+- Keep the clean, Fortune 500 consulting look
+- Add subtle visual elements to separate industries
+- Format the Workshop Application Guide as a practical reference tool
+- Make "Your Mission Development Notes" section look like a worksheet
+
+The goal is to provide inspirational reference material that executives can easily scan during their workshop.
+
+===========================================
+CONTENT TO FORMAT:
+===========================================
+
+# Section 6: Fortune 500 Mission Statement Reference Guide
+
+## Inspiration from Industry Leaders
+
+**Use these proven mission statements as reference during your workshop. Notice the variety of approaches - there's no single "right" way to craft your mission.**
+
+---
+
+## Technology Sector
+
+### Leading Companies Setting the Standard
+
+**Microsoft**  
+"To empower every person and every organization on the planet to achieve more."
+
+**Apple**  
+"To bring the best user experience to customers through innovative hardware, software, and services."
+
+**Google**  
+"To organize the world's information and make it universally accessible and useful."
+
+**Tesla**  
+"To accelerate the world's transition to sustainable energy."
+
+**Amazon**  
+"To be Earth's most customer-centric company."
+
+---
+
+## Healthcare & Life Sciences
+
+### Transforming Health Outcomes Globally
+
+**Johnson & Johnson**  
+"To profoundly change the trajectory of health for humanity."
+
+**UnitedHealth Group**  
+"To help people live healthier lives and help make the health system work better for everyone."
+
+**CVS Health**  
+"To help people on their path to better health."
+
+**Abbott**  
+"To help people live more fully at all stages of life."
+
+**Pfizer**  
+"Breakthroughs that change patients' lives."
+
+---
+
+## Financial Services
+
+### Democratizing Access to Financial Success
+
+**JPMorgan Chase**  
+"To be the most respected financial services firm in the world."
+
+**Visa**  
+"To uplift everyone, everywhere by being the best way to pay and be paid."
+
+**PayPal**  
+"To democratize financial services to ensure that everyone has access to affordable, convenient, and secure products."
+
+**Mastercard**  
+"To connect and power an inclusive digital economy that benefits everyone, everywhere."
+
+**American Express**  
+"To become essential to our customers by providing differentiated products and services."
+
+---
+
+## Retail & Consumer
+
+### Enhancing Everyday Life for Millions
+
+**Walmart**  
+"To save people money so they can live better."
+
+**Target**  
+"To help all families discover the joy of everyday life."
+
+**Home Depot**  
+"To provide the highest level of service, the broadest selection of products, and the most competitive prices."
+
+**Costco**  
+"To continually provide our members with quality goods and services at the lowest possible prices."
+
+**Starbucks**  
+"To inspire and nurture the human spirit – one person, one cup and one neighborhood at a time."
+
+---
+
+## Manufacturing & Industrial
+
+### Building Tomorrow's Infrastructure Today
+
+**3M**  
+"To improve every life."
+
+**Caterpillar**  
+"To enable economic growth through infrastructure and energy development."
+
+**Boeing**  
+"To connect, protect, explore and inspire the world through aerospace innovation."
+
+**General Electric**  
+"To rise to the challenge of building a world that works."
+
+**Honeywell**  
+"To make the world smarter, safer, and more sustainable."
+
+---
+
+## Energy & Utilities
+
+### Powering Sustainable Progress
+
+**NextEra Energy**  
+"To be a leader in providing affordable, reliable and clean energy."
+
+**Exxon Mobil**  
+"To provide energy and chemical products that are essential to improving quality of life."
+
+**Duke Energy**  
+"To execute an aggressive clean energy transition to achieve net-zero carbon emissions by 2050."
+
+**Chevron**  
+"To deliver energy that improves lives and powers the world forward."
+
+---
+
+## Consumer Goods & Brands
+
+### Creating Products That Matter
+
+**Procter & Gamble**  
+"To provide branded products and services of superior quality and value that improve the lives of the world's consumers."
+
+**Nike**  
+"To bring inspiration and innovation to every athlete in the world."
+
+**Coca-Cola**  
+"To refresh the world and make a difference."
+
+**PepsiCo**  
+"To create more smiles with every sip and every bite."
+
+**Unilever**  
+"To make sustainable living commonplace."
+
+---
+
+## Workshop Application Guide
+
+### How to Use These Examples
+
+**During Brainstorming:**
+- Notice how each mission reflects the company's core business
+- Observe the variety in length (7-25 words)
+- See how different companies emphasize different elements
+
+**Key Patterns to Observe:**
+- **Action-Oriented:** Most begin with "To" followed by a powerful verb
+- **Audience-Focused:** Clear about who they serve
+- **Impact-Driven:** Specific about the change they create
+- **Authentic Voice:** Each reflects the company's unique culture
+
+**Remember:** These are reference points, not templates. Your mission must authentically represent YOUR organization's purpose, values, and aspirations.
+
+---
+
+## Your Mission Development Notes
+
+**Industry Leaders We Admire:**
+_________________________________
+
+**Elements We Want to Incorporate:**
+_________________________________
+
+**What Makes Us Different:**
+_________________________________
+
+**The Change We Want to Create:**
+_________________________________
+
+---
+
+*"The best mission statements don't copy others – they express what makes your organization uniquely valuable to the world."*
