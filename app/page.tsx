@@ -1102,9 +1102,19 @@ export default function MissionStatementAnalyzer() {
                 <BookOpen className="h-4 w-4 mr-2" />
                 Workshop System
               </Button>
-              <Button variant="default" size="sm" className="bg-blue-600 hover:bg-blue-700">
+              <Button 
+                variant="default" 
+                size="sm" 
+                className="bg-blue-600 hover:bg-blue-700"
+                onClick={() => {
+                  navigator.clipboard.writeText(window.location.origin);
+                  // You could add a toast notification here if needed
+                  alert('Mission Statement Analyzer link copied to clipboard!');
+                }}
+                title="Share this Mission Statement Analyzer tool"
+              >
                 <Share2 className="h-4 w-4 mr-2" />
-                Share
+                Share Tool
               </Button>
             </div>
           </div>
