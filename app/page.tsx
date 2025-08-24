@@ -1064,10 +1064,8 @@ export default function MissionStatementAnalyzer() {
                 <Target className="h-4 w-4 sm:h-5 sm:w-5 text-white" />
               </div>
               <div>
-                <h1 className="text-lg sm:text-xl font-semibold text-gray-900">Mission Statement Analyzer AI Tool</h1>
-                <p className="text-xs sm:text-sm text-gray-500 hidden sm:block">
-                  Fortune 500 Standards
-                </p>
+                <h1 className="text-lg sm:text-xl font-semibold text-gray-900">Mission Statement</h1>
+                <h1 className="text-lg sm:text-xl font-semibold text-gray-900">Analyzer AI Tool</h1>
               </div>
             </div>
             <div className="flex items-center gap-4">
