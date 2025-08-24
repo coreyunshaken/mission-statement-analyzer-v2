@@ -1267,7 +1267,7 @@ export default function MissionStatementAnalyzer() {
                   Analyze Your Mission Statement
                 </CardTitle>
                 <p className="text-sm sm:text-base text-gray-600 mt-1">
-                  Get instant feedback based on Fortune 500 best practices
+                  See how your mission scores against Fortune 500 company standards
                 </p>
               </CardHeader>
               <CardContent className="space-y-4">
