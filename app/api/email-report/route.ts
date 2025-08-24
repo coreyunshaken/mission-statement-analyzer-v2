@@ -1,7 +1,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+let resend: Resend | null = null
+
+function getResendClient() {
+  if (!resend && process.env.RESEND_API_KEY) {
+    resend = new Resend(process.env.RESEND_API_KEY)
+  }
+  return resend
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -208,7 +215,12 @@ export async function POST(request: NextRequest) {
     `
 
     // Send email using Resend
-    const emailResult = await resend.emails.send({
+    const resendClient = getResendClient()
+    if (!resendClient) {
+      return NextResponse.json({ error: 'Email service not configured' }, { status: 500 })
+    }
+
+    const emailResult = await resendClient.emails.send({
       from: process.env.EMAIL_FROM || 'Mission Statement Analyzer <noreply@resend.dev>',
       to: [email],
       subject: `Your Mission Statement Analysis Report - Score: ${scores.overall}/100`,
